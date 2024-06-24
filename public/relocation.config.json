@@ -1,0 +1,16 @@
+{
+  "letterSubject": "",
+  "letterNumber": "",
+  "cc": ["r.talha@dnpp.gov.eg", "Dnpp.Security@dnpp.gov.eg"],
+  "recipientName": [
+    { "email": "m.elakrat@dnpp.gov.eg", "name": "محمد الأكرت" },
+    { "email": "queen@dnpp.gov.eg" }
+  ],
+  "letterDate": "",
+  "attachments": {
+    "letterAttachments": true,
+    "letterSituation": true
+  },
+  "companies": ["ASE"],
+  "peopleCount": ""
+}

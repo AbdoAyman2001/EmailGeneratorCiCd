@@ -1,0 +1,58 @@
+.cars {
+  height: calc(100vh - 68px);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cars > * {
+  flex-basis: 48%;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.send {
+  width: 350px;
+  margin-inline: auto;
+  margin-block-start: 20px;
+}
+
+/* In Companies.module.css */
+.inactiveInput {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #ccc; /* Grey text */
+  cursor: pointer;
+}
+
+.newCompanyInput {
+  background-color: #fff; /* White background for active state */
+  color: #000; /* Black text for active state */
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.companiesContainer,
+.companies {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkBoxesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

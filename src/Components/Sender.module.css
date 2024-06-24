@@ -1,0 +1,11 @@
+.sender {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sender > * {
+  flex-grow: 2;
+  flex-basis: 48%;
+}

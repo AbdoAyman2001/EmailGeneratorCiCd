@@ -1,0 +1,60 @@
+{
+  "letterNumber": "",
+  "cc": {
+    "local": [
+      "h.mahmoudhamed@dnpp.gov.eg",
+      "r.talha@dnpp.gov.eg",
+      "Seif.elrefaey@nppa.gov.eg",
+      "Dnpp.Security@dnpp.gov.eg"
+    ],
+    "foreign": [
+      "h.mahmoudhamed@dnpp.gov.eg",
+      "r.talha@dnpp.gov.eg",
+      "Dnpp.Security@dnpp.gov.eg"
+    ]
+  },
+  "recipientName": {
+    "local": [
+      {
+        "name": "إسلام عادل",
+        "email": "i.adel@dnpp.gov.eg"
+      },
+      {
+        "name": "محمد حسين",
+        "email": "m.hussien@dnpp.gov.eg"
+      },
+      {
+        "name": "أحمد عبدالعزيز",
+        "email": "Ahmedabdelaziz@nppa.gov.eg"
+      },
+      { "email": "waelhosny@nppa.gov.eg" }
+    ],
+    "foreign": [
+      {
+        "name": "إسلام عادل",
+        "email": "i.adel@dnpp.gov.eg"
+      },
+      {
+        "name": "محمد حسين",
+        "email": "m.hussien@dnpp.gov.eg"
+      }
+    ]
+  },
+  "hostGender": "M",
+  "guestGender": "M",
+  "companies": ["ASE"],
+  "guestNumber": "one",
+  "peopleCount": 1,
+  "sender": { "name": "", "phone": "" },
+  "shiftNumber": "",
+  "officePersonnel": [],
+  "relationship": "",
+  "attachments": {
+    "ids": true,
+    "dataList": true,
+    "hostPassport": true,
+    "marriageCert": true,
+    "birthCert": true
+  },
+  "docType": "foreign"
+}

@@ -1,0 +1,27 @@
+label {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+input,
+select {
+  text-align: center;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@font-face {
+  font-family: "PT Bold Heading";
+  src: url("./assets/PTBoldHeading.woff2") format("woff2"),
+    url("./assets/PTBoldHeading.woff") format("woff"),
+    url("./assets/PTBoldHeading.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/Cairo-VariableFont_slnt,wght.ttf") format("truetype");
+}
+ 
