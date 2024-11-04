@@ -51,6 +51,10 @@
         "to": "site.config.json"
       },
       {
+        "from": "./public/transfer.config.json",
+        "to": "transfer.config.json"
+      },
+      {
         "from": "./public/responseLetter.config.json",
         "to": "responseLetter.config.json"
       }
