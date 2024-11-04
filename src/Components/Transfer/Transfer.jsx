@@ -46,7 +46,7 @@ const Transfer = () => {
 
     // Proceed only if the form is valid
     const emailBody = EmailTransfer({ data: { ...data, ...mainData } });
-    const ccString = data.cc.join(";");
+    const ccString = data.cc[data.docType].join(";");
     const to = data.recipientName[data.docType].map((r) => r.email).join(";");
     const emailData = {
       emailBody,

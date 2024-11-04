@@ -2,36 +2,45 @@ version: 2.1
 
 jobs:
   build:
-    machine: true  # Ensures we're using a Linux VM
+    machine: true # Ensures we're using a Linux VM
+    environment:
+      DEBIAN_FRONTEND: noninteractive # Set environment variable globally for the job
     steps:
       - checkout
+
       - run:
           name: Setup Node.js
           command: |
             curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-            sudo apt-get install -y nodejs
+            sudo apt-get install -y nodejs --no-install-recommends
+
       - run:
           name: Install Dependencies
           command: npm install
+
       - run:
           name: Install Wine
           command: |
-            sudo dpkg --add-architecture i386  # Add support for i386 architecture
+            sudo dpkg --add-architecture i386
             sudo apt-get update
-            sudo apt-get install -y wine-stable
+            sudo apt-get install -y wine-stable --no-install-recommends
+
       - run:
           name: Rebuild Native Modules
           command: npm run rebuild
+
       - run:
           name: Build Application
           command: npm run build
+
       - run:
           name: Compress Artifacts
           command: |
-            # Install zip if not available, for Debian/Ubuntu
-            sudo apt-get update && sudo apt-get install -y zip
+            # Install zip if not available
+            sudo apt-get update && sudo apt-get install -y zip --no-install-recommends
             # Compress the directory
             zip -r release-win-unpacked.zip release/win-unpacked
+
       - store_artifacts:
           path: release-win-unpacked.zip
           destination: release_files
