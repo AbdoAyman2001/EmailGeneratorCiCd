@@ -1,0 +1,19 @@
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #0d6efd;
+}
+nav h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-weight: bold;
+}
+
+.container {
+  width: calc(100vw - 120px);
+  margin-right: 92px;
+  
+}
+

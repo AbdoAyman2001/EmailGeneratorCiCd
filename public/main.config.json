@@ -1,0 +1,103 @@
+{
+  "sender": { "name": "", "phone": [] },
+  "shiftNumber": "",
+  "officePersonnel": [
+    {
+      "name": "Ahmed Ibrahim Zaghloul",
+      "phone": [],
+      "shiftNumber": 1,
+      "email": []
+    },
+    {
+      "name": "Ahmed El-Sayed Masoud",
+      "phone": ["+201069221920", "+201121611461"],
+      "shiftNumber": 1,
+      "email": ["a.masoud@dnpp.gov.eg "]
+    },
+    {
+      "name": "Eng. Mostafa Mohsen",
+      "phone": [],
+      "shiftNumber": 2,
+      "email": []
+    },
+
+    {
+      "name": "Hussien AbdulMajeed",
+      "phone": [],
+      "shiftNumber": 2,
+      "email": []
+    },
+    {
+      "name": "Ashraf Mahmoud AbdulGhaffar",
+      "phone": [],
+      "shiftNumber": 2,
+      "email": []
+    },
+    {
+      "name": "Mahmoud Adel Fouad El-Shahid",
+      "phone": [],
+      "shiftNumber": 1,
+      "email": []
+    },
+    {
+      "name": "Mostafa Ismail Mohamed Derbala",
+      "phone": [],
+      "shiftNumber": 1,
+      "email": []
+    },
+    {
+      "name": "AbdulRuhman Ayman AbdulAleem",
+      "phone": ["+201102423810", "+201063957939"],
+      "shiftNumber": 1,
+      "email": []
+    },
+    {
+      "name": "Ahmed Mahmoud Awad",
+      "phone": [],
+      "shiftNumber": 2,
+      "email": []
+    },
+    {
+      "name": "Moaz Mohamed Nofal",
+      "phone": [],
+      "shiftNumber": 2,
+      "email": []
+    },
+    {
+      "name": "Mostafa AbdRabboh El-Heddini",
+      "phone": [],
+      "shiftNumber": 1,
+      "email": []
+    },
+    {
+      "name": "El-Saeed Gamal El-Sayed",
+      "phone": [],
+      "shiftNumber": 1,
+      "email": []
+    },
+    {
+      "name": "Ahmed El-Sayed Saber AbdulQader",
+      "phone": [],
+      "shiftNumber": 1,
+      "email": []
+    },
+    {
+      "name": "Omar Hisham El-Sayed",
+      "phone": [],
+      "shiftNumber": 2,
+      "email": []
+    },
+    {
+      "name": "Mohamed Khalid Farouz",
+      "phone": [],
+      "shiftNumber": 2,
+      "email": []
+    },
+    {
+      "name": "Bassem Ali Sid-Ahmed Salamah",
+      "phone": [],
+      "shiftNumber": 2,
+      "email": []
+    }
+  ]
+}

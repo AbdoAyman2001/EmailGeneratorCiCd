@@ -1,0 +1,39 @@
+/* .name {
+  font-family: "ptHeading", sans-serif;
+} */
+
+.names {
+  font-size: 1.3rem;
+  /* font-weight: bold; */
+}
+.names > * {
+  margin-bottom: 0.2rem;
+}
+
+.hi {
+  margin-block: 1rem;
+  width: 100%;
+}
+
+.container {
+  font-family: "ptHeading", sans-serif;
+}
+
+@font-face {
+  font-family: "PT Bold Heading";
+  src: url("../../assets/PTBoldHeading.woff2") format("woff2"),
+    url("../../assets/PTBoldHeading.woff") format("woff"),
+    url("../../assets/PTBoldHeading.ttf") format("truetype");
+}
+
+.message {
+  font-family: amiri, sans-serif;
+}
+
+.listItems {
+  font-family: amiri, sans-serif;
+}
+
+strong {
+  font-weight: normal;
+}

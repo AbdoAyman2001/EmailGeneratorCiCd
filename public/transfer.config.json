@@ -1,0 +1,46 @@
+{
+  "letterNumber": "",
+  "letterCode": "",
+  "recipientName": {
+    "local": [
+      {
+        "name": "إسلام عادل",
+        "email": "i.adel@dnpp.gov.eg"
+      },
+      {
+        "name": "أحمد عبدالعزيز",
+        "email": "Ahmedabdelaziz@nppa.gov.eg"
+      },
+      { "email": "eldabaapermits@dnpp.gov.eg" }
+    ],
+    "foreign": [
+      {
+        "name": "إسلام عادل",
+        "email": "i.adel@dnpp.gov.eg"
+      }
+    ]
+  },
+  "cc": {
+    "local": [
+      "h.mahmoudhamed@dnpp.gov.eg",
+      "r.talha@dnpp.gov.eg",
+      "Seif.elrefaey@nppa.gov.eg",
+      "s.elrefaey@dnpp.gov.eg",
+      "m.mohsen@dnpp.gov.eg",
+      "Dnpp.Security@dnpp.gov.eg"
+    ],
+    "foreign": [
+      "h.mahmoudhamed@dnpp.gov.eg",
+      "r.talha@dnpp.gov.eg",
+      "m.mohsen@dnpp.gov.eg",
+      "Dnpp.Security@dnpp.gov.eg"
+    ]
+  },
+  "companyName": "",
+  "docType": "local",
+  "attachments": {
+    "ids": true,
+    "dataList": true,
+    "transferDataList": true
+  }
+}

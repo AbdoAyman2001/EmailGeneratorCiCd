@@ -1,0 +1,55 @@
+.response {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(100vh - 68px);  
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.form > :first-child{
+  width: 100%;
+}
+.response > * {
+  flex-basis: 49%;
+  overflow: auto;
+  max-height: 100%;
+  max-width: 50%;
+}
+.addCompanyContainer,
+.companiesContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  gap: 5px;
+}
+.workerContainer > * {
+  display: flex;
+  width: 100%;
+}
+.workerContainer input {
+  flex-grow: 2;
+}
+.workerContainer label {
+  min-width: 100px;
+}
+.companiesContainer button {
+  align-self: flex-start;
+  height: fit-content;
+}
+.companiesContainer.first button {
+  align-self: center;
+}
+.companiesContainer > :nth-child(3),
+.addCompanyContainer > :nth-child(3) {
+  width: 50%;
+}
+
+.send { 
+  width: 150px;
+  font-family: Cairo, sans-serif;
+}

@@ -1,0 +1,88 @@
+.familyContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: calc(100vh - 68px);
+}
+.familyContainer > * {
+  flex-basis: 49%;
+  overflow: auto;
+  max-height: 100%;
+  max-width: 50%;
+}
+
+.inputGroup {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.form {
+  width: 75%;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.form select,
+.form input:not([type="radio"]):not([type="checkbox"]) {
+  height: 38px;
+}
+
+.attachmentsContainer,
+.guestGender,
+.hostGender,
+.companiesContainer,
+.peopleCount,
+.relationship {
+  flex-basis: 48%;
+}
+
+.senderContainer {
+  width: 100%;
+}
+
+.senderContainer > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.senderContainer > div > div {
+  flex-basis: 47%;
+  flex-grow: 2;
+}
+
+.OptionsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.send {
+  height: fit-content;
+  max-width: 200px;
+  width: 350px;
+  margin-inline: auto;
+}
+.attachmentsContainer {
+  justify-content: flex-start;
+  flex-basis: 100%;
+}
+.companiesContainer {
+  align-self: flex-start;
+}
+
+.gender {
+  flex-grow: 5;
+}
+
+.docTypeSelect {
+  flex-basis: 47%;
+  flex-grow: 5;
+}

@@ -1,0 +1,54 @@
+.inputGroup {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Adjust gap between elements */
+}
+
+.names {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.removeButton {
+  margin-left: 10px; /* Add some space between the input and the button */
+}
+
+.namesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.addPerson {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: fit-content;
+}
+
+.inactiveInput {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #ccc; /* Grey text */
+  cursor: pointer;
+}
+
+/* Active new name input styling, adjust as necessary */
+.newNameInput {
+  background-color: #fff; /* White background for active state */
+  color: #000; /* Black text for active state */
+}
+
+.numberOfPeople input {
+  text-align: center;
+}
+
+
+.OptionsContainer { 
+  display: flex;
+  align-items: center;
+}
+
+.OptionsContainer > * { 
+  flex-grow: 2;
+}

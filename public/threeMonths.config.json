@@ -1,0 +1,27 @@
+{
+  "letterNumber": "",
+  "letterCode": "",
+  "recipientName": [
+    {
+      "name": "أحمد عبدالعزيز",
+      "email": "Ahmedabdelaziz@nppa.gov.eg"
+    },
+    { "email": "eldabaapermits@dnpp.gov.eg" }
+  ],
+  "cc": [
+    "r.talha@dnpp.gov.eg",
+    "Seif.elrefaey@nppa.gov.eg",
+    "s.elrefaey@dnpp.gov.eg",
+    "m.mohsen@dnpp.gov.eg",
+    "Dnpp.Security@dnpp.gov.eg"
+  ],
+  "carCount": "",
+  "companies": ["ASE"],
+  "authorizedAreas": "",
+  "docType": "local",
+  "attachments": {
+    "entranceList": true,
+    "drivingLicense": true,
+    "carLicense": true
+  }
+}

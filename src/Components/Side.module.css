@@ -1,0 +1,89 @@
+div.sidebar {
+  padding-block: 0 !important;
+
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  position: fixed;
+  inset-block: 0;
+  right: 0;
+  height: 100vh;
+  transition: width 0.3s ease;
+  border-left: 2px solid var(--bs-primary);
+  background-color: var(--bs-primary) !important;
+}
+
+.sidebar.shown {
+  width: 250px;
+}
+.sidebar.hidden {
+  width: 92px;
+}
+
+.listItems {
+  display: flex;
+  height: calc(100vh - 68px);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.listItems li {
+  width: 100%;
+  border-radius: 40px;
+  transition: 0.3s ease;
+}
+
+.listItems li.active,
+.listItems .active .navLink {
+  color: var(--bs-primary);
+  background-color: var(--bs-light);
+}
+
+.listItems li:hover,
+.listItems li:hover .navLink {
+  color: var(--bs-primary);
+  background-color: var(--bs-light);
+}
+
+.listItems .navLink {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: row;
+  aspect-ratio: 1/1;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  height: 60px;
+  border-radius: 80px;
+}
+
+.listItems img {
+  height: 100%;
+  box-sizing: content-box;
+}
+
+.listItems li.active img {
+  aspect-ratio: 1/1;
+}
+
+.navText {
+  animation: fadeIn 0.5s ease-out forwards;
+  white-space: nowrap;
+  font-family: "Cairo";
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

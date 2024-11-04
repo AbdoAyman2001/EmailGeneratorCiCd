@@ -1,0 +1,24 @@
+.transfer {
+    height: calc(100vh - 68px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.formContainer,
+.preview {
+    width: 49%; 
+    box-sizing: border-box; 
+padding: 20px; 
+}
+
+.send {
+    width: 200px;
+    align-self: center;
+    margin-inline: auto;
+  }
+  
+.buttonContainer { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
