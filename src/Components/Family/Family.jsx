@@ -88,7 +88,7 @@ const Family = () => {
       emailBody, // HTML content of the email
       to: toString,
       cc: ccString,
-      subject: `استعلام دخول موقع (${data.letterNumber})`,
+      subject: `استعلام دخول موقع (${data.letterNumber}) لسنة (${new Date().getFullYear()})`,
     };
 
     setIsSubmitting(true);

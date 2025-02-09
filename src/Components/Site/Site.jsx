@@ -68,9 +68,13 @@ const Site = () => {
       emailBody, // HTML content of the email
       to: toString,
       cc: ccString,
-      subject: data.highPriority
-        ? `استعلام دخول موقع بدرجة أولوية عاجله (${data.letterNumber})`
-        : `استعلام دخول موقع (${data.letterNumber})`,
+      subject: !data.highPriority
+        ? `استعلام دخول موقع (${
+            data.letterNumber
+          }) لسنة (${new Date().getFullYear()})`
+        : `استعلام دخول موقع بدرجة أولوية عاجلة (${
+            data.letterNumber
+          }) لسنة (${new Date().getFullYear()})`,
     };
 
     setIsSubmitting(true);

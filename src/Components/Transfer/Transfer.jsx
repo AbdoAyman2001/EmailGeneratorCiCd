@@ -54,8 +54,12 @@ const Transfer = () => {
       cc: ccString,
       subject:
         data.docType === "local"
-          ? `خطاب انتقال مصريين (${data.letterNumber})`
-          : `خطاب انتقال أجانب (${data.letterNumber})`,
+          ? `خطاب انتقال مصريين (${
+              data.letterNumber
+            }) لسنة (${new Date().getFullYear()})`
+          : `خطاب انتقال أجانب (${
+              data.letterNumber
+            }) لسنة (${new Date().getFullYear()})`,
     };
 
     setIsSubmitting(true);
