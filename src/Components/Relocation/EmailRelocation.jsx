@@ -1196,15 +1196,6 @@ const EmailRelocation = ({ data }) => {
     line-height:115%;font-family:"Simplified Arabic",serif'><o:p></o:p></span></b></p>
     
 
-
-
-
-
-
-
-
-
-
     ${
       data.attachments.letterAttachments
         ? `
@@ -1246,24 +1237,6 @@ const EmailRelocation = ({ data }) => {
         : ""
     }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
     embed'><span lang=AR-SA style='font-family:"PT Bold Heading";color:#002060'>وتفضلوا

@@ -986,7 +986,7 @@ ${OutlookParagraph({
       : ""
   }
      ، 
-    وذلك للسماح ${themPronoun()} بدخول ${authorizedAreas()} للمشاركة فى أعمال المشروع.`,
+    وذلك للسماح ${themPronoun()} بدخول ${authorizedAreas()} للمشاركة فى أعمال المشروع وفقا للتوقيتات المحددة بالقوائم المرفقة.`,
 })}
 
 <p dir=RTL style='text-align:right;direction:rtl;unicode-bidi:embed'><b><span

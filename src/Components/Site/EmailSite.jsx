@@ -1222,20 +1222,21 @@ ul
 <div>
 
 ${
-data.recipientName[data.docType].length > 1 ? `
+  data.recipientName[data.docType].length > 1
+    ? `
 <p dir=RTL style='margin:0cm;margin-bottom:.0001pt;text-align:right;direction:
     rtl;unicode-bidi:embed'><span lang=AR-SA style='font-size:14.0pt;font-family:
     "PT Bold Heading";color:#1F4E79;mso-themecolor:accent1;mso-themeshade:128'>السادة الزملاء الأعزاء..</span></p>
-` : `${data.recipientName[data.docType]
-  .map((recipientName) => {
-    if (recipientName.name)
-      return `<p dir=RTL style='margin:0cm;margin-bottom:.0001pt;text-align:right;direction:
+`
+    : `${data.recipientName[data.docType]
+        .map((recipientName) => {
+          if (recipientName.name)
+            return `<p dir=RTL style='margin:0cm;margin-bottom:.0001pt;text-align:right;direction:
     rtl;unicode-bidi:embed'><span lang=AR-SA style='font-size:14.0pt;font-family:
     "PT Bold Heading";color:#1F4E79;mso-themecolor:accent1;mso-themeshade:128'>السيد
     الزميل/ ${recipientName.name}</span></p>`;
-  })
-  .join("")}`
-
+        })
+        .join("")}`
 }
 
 <p class=MsoNormal dir=RTL style='text-align:right;direction:rtl;unicode-bidi:
@@ -1261,7 +1262,7 @@ ${OutlookParagraph({
         : ""
     }
  ، 
-    وذلك للسماح ${themPronoun()} بدخول ${authorizedAreas()} للمشاركة فى أعمال المشروع.`,
+    وذلك للسماح ${themPronoun()} بدخول ${authorizedAreas()} للمشاركة فى أعمال المشروع وفقا للتوقيتات المحددة بالقوائم المرفقة.`,
 })}
 
 ${RequestOutlookParagraph({
