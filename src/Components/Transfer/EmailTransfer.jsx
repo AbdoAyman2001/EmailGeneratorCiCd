@@ -1184,10 +1184,7 @@ const EmailTransfer = ({ data }) => {
       : ""
   }
 
-
-  ${
-    data.docType === "local"
-      ? `<p class=Body dir=RTL style='margin-bottom:0in;text-align:justify;direction:
+<p class=Body dir=RTL style='margin-bottom:0in;text-align:justify;direction:
 rtl;unicode-bidi:embed'><span lang=AR-SA style='font-size:16.0pt;line-height:
 105%;font-family:"Simplified Arabic",serif'>&#1606;&#1578;&#1588;&#1585;&#1601;
 &#1571;&#1606; &#1606;&#1581;&#1610;&#1591;&#1603;&#1605;
@@ -1214,11 +1211,6 @@ rtl;unicode-bidi:embed'><b><span lang=AR-SA style='font-size:16.0pt;line-height:
 &#1575;&#1604;&#1576;&#1610;&#1575;&#1606;&#1575;&#1578;.</span></b><b><span
 dir=LTR style='font-size:12.0pt;line-height:105%;font-family:"Simplified Arabic",serif;
 color:red'><o:p></o:p></span></b></p>
-
-
-    `
-      : ""
-  }
 
 
 
