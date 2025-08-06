@@ -1184,23 +1184,27 @@ const EmailTransfer = ({ data }) => {
       : ""
   }
 
-<p class=Body dir=RTL style='margin-bottom:0in;text-align:justify;direction:
-rtl;unicode-bidi:embed'><span lang=AR-SA style='font-size:16.0pt;line-height:
-105%;font-family:"Simplified Arabic",serif'>&#1606;&#1578;&#1588;&#1585;&#1601;
-&#1571;&#1606; &#1606;&#1581;&#1610;&#1591;&#1603;&#1605;
-&#1593;&#1604;&#1605;&#1575;&#1611; &#1576;&#1571;&#1606;&#1607; &#1602;&#1583;
-&#1608;&#1585;&#1583;&#1578; &#1573;&#1604;&#1610;&#1606;&#1575; &#1602;&#1575;&#1574;&#1605;&#1577;
-&#1605;&#1585;&#1601;&#1602;&#1577; <b><u>&#1576;&#1582;&#1591;&#1575;&#1576;
-&#1575;&#1606;&#1578;&#1602;&#1575;&#1604; &#1604;&#1576;&#1593;&#1590;
-&#1575;&#1604;&#1571;&#1601;&#1585;&#1575;&#1583;
-&#1575;&#1604;&#1605;&#1589;&#1585;&#1610;&#1610;&#1606;</u></b>
-&#1603;&#1605;&#1575; &#1607;&#1608; &#1605;&#1608;&#1590;&#1581;
-&#1576;&#1575;&#1604;&#1602;&#1575;&#1574;&#1605;&#1577;
-&#1575;&#1604;&#1605;&#1585;&#1601;&#1602;&#1577;</span><span dir=LTR></span><span
-dir=LTR></span><span dir=LTR style='font-size:16.0pt;line-height:105%;
-font-family:"Simplified Arabic",serif'><span dir=LTR></span><span dir=LTR></span>.</span><span
-dir=LTR style='font-size:16.0pt;line-height:105%;font-family:"Simplified Arabic",serif;
-mso-bidi-language:AR-EG'><o:p></o:p></span></p>
+${data.docType == 'local' ? `
+  <p class=Body dir=RTL style='margin-bottom:0in;text-align:justify;direction:
+  rtl;unicode-bidi:embed'><span lang=AR-SA style='font-size:16.0pt;line-height:
+  105%;font-family:"Simplified Arabic",serif'>&#1606;&#1578;&#1588;&#1585;&#1601;
+  &#1571;&#1606; &#1606;&#1581;&#1610;&#1591;&#1603;&#1605;
+  &#1593;&#1604;&#1605;&#1575;&#1611; &#1576;&#1571;&#1606;&#1607; &#1602;&#1583;
+  &#1608;&#1585;&#1583;&#1578; &#1573;&#1604;&#1610;&#1606;&#1575; &#1602;&#1575;&#1574;&#1605;&#1577;
+  &#1605;&#1585;&#1601;&#1602;&#1577; <b><u>&#1576;&#1582;&#1591;&#1575;&#1576;
+  &#1575;&#1606;&#1578;&#1602;&#1575;&#1604; &#1604;&#1576;&#1593;&#1590;
+  &#1575;&#1604;&#1571;&#1601;&#1585;&#1575;&#1583;
+  &#1575;&#1604;&#1605;&#1589;&#1585;&#1610;&#1610;&#1606;</u></b>
+  &#1603;&#1605;&#1575; &#1607;&#1608; &#1605;&#1608;&#1590;&#1581;
+  &#1576;&#1575;&#1604;&#1602;&#1575;&#1574;&#1605;&#1577;
+  &#1575;&#1604;&#1605;&#1585;&#1601;&#1602;&#1577;</span><span dir=LTR></span><span
+  dir=LTR></span><span dir=LTR style='font-size:16.0pt;line-height:105%;
+  font-family:"Simplified Arabic",serif'><span dir=LTR></span><span dir=LTR></span>.</span><span
+  dir=LTR style='font-size:16.0pt;line-height:105%;font-family:"Simplified Arabic",serif;
+  mso-bidi-language:AR-EG'><o:p></o:p></span></p>
+  
+  `:``}
+
 
   <p class=Body dir=RTL style='margin-bottom:0in;text-align:justify;direction:
 rtl;unicode-bidi:embed'><b><span lang=AR-SA style='font-size:16.0pt;line-height:
